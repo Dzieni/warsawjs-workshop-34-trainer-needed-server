@@ -4,11 +4,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start-server": "nodemon server --exec 'eslint . && node'"
+    "start-server": "nodemon server --exec 'eslint . && node'",
+    "prettify": "prettier --write '**/*.{js,json}'"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
   },
   "dependencies": {
     "lodash": "^4.17.14",
